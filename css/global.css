@@ -7,7 +7,7 @@
 
 :root {
 
---dominantColor: red; /* var(--dominantColor) !important; */
+--dominantColor: #593a15; /* var(--dominantColor) !important; */
 --secondaryColor: #dff4f6; /* var(--secondaryColor) !important; */
 --accentColor: #591815; /* var(--accentColor) !important; */
 
