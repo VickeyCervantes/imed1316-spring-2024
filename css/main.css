@@ -19,5 +19,12 @@ h2 {
     padding-top: 40px;
     padding-bottom: 0px;
     background-color: #ffffff;
+}
+
+.top-logo-small {
+
+font-size: 29px;
+font-family: "Space Grotesk", sans-serif;
+color: var(--dominantColor) !important;
 
 }
