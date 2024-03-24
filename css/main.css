@@ -44,6 +44,7 @@ color: var(--dominantColor) !important;
 
 .nav-link {
     font-size: 20px !important;
+    color: #ffffff !important;
 }
 
 .nav-link:hover {
