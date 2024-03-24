@@ -48,5 +48,18 @@ color: var(--dominantColor) !important;
 
 .nav-link:hover {
     text-decoration: underline;
-    text-decoration-thickness; 3px;
+    text-decoration-thickness: 3px;
+}
+
+.footer-row {
+    background-color: var(--dominantColor) !important;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-row a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
