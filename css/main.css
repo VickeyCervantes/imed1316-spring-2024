@@ -65,6 +65,8 @@ color: var(--dominantColor) !important;
     text-transform: uppercase;
 }
 
+.fa-social-media, .fa-social-media a
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
 
