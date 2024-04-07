@@ -86,7 +86,7 @@ blockquote {
 blockquote::before{
     display: block;
     padding-left:  10px;
-    content: "";
+    content: "\201c";
     font-size: 80px;
     position: absolute;
     left: -20px;
