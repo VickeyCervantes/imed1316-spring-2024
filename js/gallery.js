@@ -12,7 +12,10 @@ $( document ).ready(function() {
             display: false
         },
         thumbnailHoverEffect2: "imageScaleIn80|imageSepia)ff|labelAppear75", 
-        thumbnailGutterWidth: 0
+        thumbnailGutterWidth: 0,
+        thumbnailGutterHeight: 0,
+        thumbnailAlignment: "center",
+        thumbnailOpenImage: true
 
       });
 
