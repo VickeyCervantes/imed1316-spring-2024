@@ -3,8 +3,8 @@ $( document ).ready(function() {
     //console.log( "ready!" );
 
     $("#blinn-gallery").nanogallery2({
-        thumbnailWidth: "300"
-        thumbnailHeight: "auto"
+        thumbnailWidth: "300",
+        thumbnailHeight: "auto",
         thumbnailBorderVertical: 0,
         thumbnailBorderHorizontal: 0,
         thumbnailLabel: {
