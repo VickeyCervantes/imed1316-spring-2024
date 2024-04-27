@@ -135,56 +135,97 @@
              <!-- Email - email Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">Email</label>
+                <input type="email" id="email" name="email" required />
              </div>
 
              <!-- Phone - tel Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <label for="">Phone</label>
+                <label for="">Phone (optional) </label>
+                <input type="tel" name="phone" id="phone" />
              </div>
 
               <!-- Social Media - url Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">Social Media</label>
+                <input type="url" name="url" id="social media" />
              </div>
 
              <!-- Start Date - date Field-->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">Start Date</label>
+                <input type="date" name="startDate" id="start-date" required />
              </div>
 
              <!-- TSize - select (dropdown) Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">T-shirt Size</label>
+                <select name="tShirt" id="t-shirt" required>
+                    <option value="">SELECT T-SHIRT SIZE</option>
+                    <option value="XXS">XXS</option>
+                    <option value="XS">XS/option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="CUSTOM">CUSTOM</option>
+                </select>
+                <input type="text" name="custom" placeholder="please input a custom size" id="custom" />
              </div>
 
              <!-- TColor - color Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">T-shirt Color</label>
+                <input type="color" id="color" name="color" />
              </div>
 
              <!-- Background Check - file (upload) Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="">Background Check</label>
-             </div>
+                <input type="file" name="file" id="background-check" required/>
+              </div>
 
                <!-- Participation In - radio Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <label for="">Participating In</label>
+                <strong>Participating In</strong><br> />
+
+                <input type="radio" name="participation" id="fashion-show" required value="Fashion Show"/>
+                <label for="fashion-show">Fashion Show</label>
+
+                <input type="radio" name="participation" id="donation" required value="Donation"/>
+                <label for="donation">Donation</label>
+
+                <input type="radio" name="participation" id="expectator" required value="Expectator"/>
+                <label for="expectator">Expectator</label>
+
              </div>
 
              <!-- Time of Day - checkbox Field-->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <label for="">Time of Day</label>
+                <strong>Time of Day</strong>
+
+                <input type="checkbox" name="timeOfday" id="time-of-day-morning" required value="Morning" />
+                <label for="time-of-day-morning">Morning</label>
+
+                <input type="checkbox" name="timeOfday" id="time-of-day-afternoon" required value="Afternoon" />
+                <label for="time-of-day-afternoon">Afternoon</label>
+
+                <input type="checkbox" name="timeOfday" id="time-of-day-evening" required value="Evening" />
+                <label for="time-of-day-evening">Evening</label>
+
              </div>
 
-             <!-- Comment - textare Field-->
+             <!-- Comment - textarea Field-->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <label for="">Comments</label>
+                <label for="about-you">Tell us about you</label><br />
+                <textarea name="aboutYou" id="about-you"></textarea>
              </div>
 
              <!-- Terms and Conditions - checkbox (switch) Field -->
              <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                <label for="">Terms and Conditions</label>
+              <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes" />
+              <label for="terms-and-conditions">I Accept the Terms and Conditions</label>
+
              </div>
 
              <!-- Submit - submit Field -->
