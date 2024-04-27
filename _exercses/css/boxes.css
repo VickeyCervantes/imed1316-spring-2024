@@ -41,7 +41,8 @@
     top: 10px;
     left: 10px;
     visibility: visible; /*visible, hidden*/
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.35); /*horizontal, vertical, blur, spread color+opacity*/
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.35); 
+    /*horizontal, vertical, blur, spread color+opacity*/
     z-index: 0;
     display: block; /*none, block, inline-block*/
   }
