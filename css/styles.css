@@ -19,7 +19,7 @@
 }
 
 .fa-row-icon:hover {
-    transform: (1.1);
+    text-transform: (1.1);
 }
 
 .fa-row-a {
@@ -28,3 +28,4 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
