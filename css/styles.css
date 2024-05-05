@@ -2,7 +2,7 @@
 @import "main.css";
 
 .carousel-caption {
-    background-color: rgba(red, green, blue, alpha);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff !important;
 }
 
