@@ -89,3 +89,8 @@
     
 }
 
+.btn-isotope, .btn-isotope:hover {
+    color: #ffffff;
+    border-radius: 0px;
+}
+
