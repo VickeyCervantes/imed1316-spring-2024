@@ -32,7 +32,7 @@
 .first-paragraph-div {
     position: relative;
     background-color: #fffffd;
-    color: var(--dominantColor) !important;
+    color: #000000;
     font-weight: bold;
     font-family: "Space Mono", monospace;
     font-size: 24px;
@@ -62,7 +62,7 @@
 .second-paragraph-div {
     position: relative;
     background-color: #fffffd;
-    color: var(--dominantColor) !important;
+    color: #000000;
     font-weight: bold;
     font-family: "Space Mono", monospace;
     font-size: 24px;
