@@ -19,7 +19,7 @@
 }
 
 .fa-row-icon:hover {
-    text-transform: (1.1);
+    transform: scale(1.1);
 }
 
 .fa-row-a {
@@ -60,5 +60,11 @@
     height: auto;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: ;
+    margin-bottom: 20px;
+}
+
+.second-paragraph-img {
+    position: relative;
+    float: right;
+    padding-left: 18px;
 }
