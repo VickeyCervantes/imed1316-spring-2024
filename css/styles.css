@@ -104,3 +104,12 @@
     border-radius: 50%;
 }
 
+.card {
+    margin: 15px;
+    height: 350px;
+ }
+
+ .card a {
+    color: #020230;
+ }
+
