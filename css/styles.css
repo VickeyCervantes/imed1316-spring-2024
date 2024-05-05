@@ -6,12 +6,12 @@
     color: #ffffff !important;
 }
 
-.fa-row{
+.fa-row {
     background-color: var(--dominantColor) !important;
     padding: 20px;
 }
 
-.fa-row-icon{
+.fa-row-icon {
     font-size: 80px;
     color: #ffffff;
     margin-bottom: 5px;
