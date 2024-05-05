@@ -1,3 +1,7 @@
 @import "global.css";
 @import "main.css";
 
+.carousel-caption {
+    background-color: rgba(red, green, blue, alpha);
+    color: ffffff !important;
+}
